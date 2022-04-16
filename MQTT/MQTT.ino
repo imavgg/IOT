@@ -3,11 +3,11 @@
 #include <SimpleDHT.h>
 #include <myclass.h>
 
-const char* ssid     = "P880";
-const char* password = "0917251331";
-const char* server = "c65d1111-internet-facing-2e5e454121de7c2e.elb.us-east-1.amazonaws.com";
-const char* server_id = "anq";
-const char* server_pasw ="Ee405423";
+const char* ssid     = "yours network";
+const char* password = "yours network";
+const char* server = "yours server";
+const char* server_id = "yours server";
+const char* server_pasw ="yours  server";
 
 //const char* server = "mqtt.eclipseprojects.io";
 //const char* server = "broker.emqx.io";
