@@ -12,11 +12,10 @@
 #include <WiFiClientSecure.h>
 #include <SimpleDHT.h>
 
-const char* ssid     = "P880";
-const char* password = "0917251331";
+const char* ssid     = "your network";
+const char* password = "your network";
 
-//String url = "https://api.thingspeak.com/update?api_key=UOPAOFNXPETCYCNI&field1="; //get
-String url = "http://maker.ifttt.com/trigger/webhook/with/key/ipwy_-peyAMtA5wCO9VKLp2BWneYmaCYymZKFcxS54P?value1="; //get
+String url = "your hook?value1="; //get
 int pinDHT = 19; 
 SimpleDHT11 dht11(pinDHT);
 
