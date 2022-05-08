@@ -26,6 +26,10 @@ Goal: record sensor data on google sheet.
     ```
     Download mosquitto and run 
     ```
+     sudo apt install mosquitto
+ 
+     sudo apt install mosquitto-clients
+
      service mosquitto start
     ```
   2. Set hardware and run Arduino code
