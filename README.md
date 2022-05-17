@@ -39,4 +39,13 @@ Goal: record sensor data on google sheet.
 
 Goal: voice control to command on application
 
-Still working on it ....
+1. set INMP441 pin VDD, GND and I2S communication pins as followings:
+ i2s_pin_config_t i2sPins = {
+    .bck_io_num = GPIO_NUM_32,(SCK)
+    .ws_io_num = GPIO_NUM_25,(WS)
+    .data_in_num = GPIO_NUM_33};(SD)
+2. run memssampler.ino
+3. record with I2SMEMSsamper.cpp` printf(" 0x%x,",samples[sample_index]);` and save to file(record.h)
+4. run playAACFromPROGMEM.ino to replay record.
+
+
