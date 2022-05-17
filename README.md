@@ -6,6 +6,7 @@
   * Sensors: 
     * home: MQ135,DHT11 
     * sound: MAX98357A,INMP441, speaker
+    * display:
 * Software : 
   * Arduino IDE
   * packages: esp-idf
@@ -35,7 +36,7 @@ Goal: record sensor data on google sheet.
   2. Set hardware and run Arduino code
   3. Check the data transfer situation from mosquite.
 
-# Voice and Sound project
+## Voice and Sound project
 
 Goal: voice control to command on application
 
@@ -49,3 +50,5 @@ Goal: voice control to command on application
 4. run playAACFromPROGMEM.ino to replay record.
 
 
+## LCD Display project
+## Camera Detect project
