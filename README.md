@@ -6,7 +6,7 @@
   * Sensors: 
     * home: MQ135,DHT11 
     * sound: MAX98357A,INMP441, speaker
-    * display:
+    * display: ST7735
 * Software : 
   * Arduino IDE
   * packages: esp-idf
@@ -65,4 +65,5 @@ i2s_pin_config_t i2sPins = {
 
 
 ## LCD Display project
+Gloal: show real-time sensor ouput.
 ## Camera Detect project
