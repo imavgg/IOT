@@ -9,7 +9,10 @@
     * display: ST7735
 * Software : 
   * Arduino IDE
-  * packages: esp-idf
+  * packages: esp-idf,
+    * home: simpledht 
+    * sound: esp32_audio_I2S
+    * display: ucglib
  
 ## IFTTT project
 Goal: record sensor data on google sheet.
